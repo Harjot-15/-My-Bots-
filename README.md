@@ -1,13 +1,11 @@
-❤️❤️ EXTRACTOR
+Here is your updated README file with the Installation section at the top and the new functionality of Folder Creation added:
 
 ```markdown
-# Archive Extractor, File Mover, and Folder Renamer
-
-This application provides a GUI for three main operations: extracting archives, moving files and deleting subdirectories, and renaming folders.
+# ❤️❤️ EXTRACTOR
 
 ## Installation
 
-Ensure you have Python installed on your machine. The application requires the following libraries: `tkinter`, `rarfile`, and `zipfile`. You can install the necessary libraries using the following commands:
+Ensure you have Python installed on your machine. The application requires the following libraries: `tkinter`, `rarfile`, `zipfile`, and `ttkthemes`. You can install the necessary libraries using the following commands:
 
 ```bash
 pip install rarfile zipfile ttkthemes
@@ -17,7 +15,13 @@ pip install rarfile zipfile ttkthemes
 
 You can download the application file from [here](<link to your application file>).
 
-## Usage
+## Features
+
+### Archive Extractor, File Mover, and Folder Renamer
+
+This application provides a GUI for three main operations: extracting archives, moving files and deleting subdirectories, and renaming folders.
+
+#### Usage
 
 1. **Archive Extraction**:
    - Select the source folder containing the archives and the destination folder where the archives will be extracted.
@@ -46,7 +50,23 @@ python script_name.py --move-and-delete <source_folder>
 python script_name.py --rename <source_folder>
 ```
 
-Replace `script_name.py` with the name of your script file, and `<source_folder>`, `<destination_folder>` with the paths to your folders.
+### Folder Creation
+
+This feature allows you to create a hierarchy of folders in a specified destination folder based on a JSON structure.
+
+#### Usage
+
+1. **Folder Creation**:
+   - Select the destination folder where the folders will be created.
+   - Specify the folder structure in JSON format in the designated text area.
+   - Click on "Create Folders".
+
+```bash
+# Snippet to run the folder creation function
+python script_name.py --create-folders <destination_folder> <folder_structure.json>
 ```
 
-In the usage section, the command-line snippets are provided for running each operation in your script. Replace `<link to your application file>` with the actual link to your application file, and `script_name.py` with the name of your script file.
+Replace `script_name.py` with the name of your script file, and `<source_folder>`, `<destination_folder>` with the paths to your folders. `<folder_structure.json>` is the path to a JSON file containing your folder structure.
+```
+
+In the Folder Creation section, I've added a new snippet for running the folder creation function from the command line, assuming that you might have a corresponding command-line interface for this function. Replace `<folder_structure.json>` with the path to a JSON file containing your folder structure, if applicable. If not, feel free to remove or modify this snippet to match your application's actual functionality.
