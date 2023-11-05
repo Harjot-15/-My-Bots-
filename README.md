@@ -15,6 +15,14 @@ pip install rarfile zipfile ttkthemes
 
 You can download the application file from [here](<https://www.playbook.com/s/harjot15/k34gq92hgExnmZSWxMKCnQUF?assetToken=5kcZsS42bYubmj89Hr4kuX17>).
 
+If Computer Do Not Allows To Run The File Then Right Click On The ❤️main❤️ file and Then ❤️Properties > ❤️Click Unblock >❤️Click Apply and Then ❤️‍🔥Run The Tool
+
+<img src="https://github.com/Harjot-15/-My-Bots-/blob/%E2%9D%A4%EF%B8%8F-CRUD-EXTRACTOR/Unblock%20Images/Unblock.png" width="850">
+
+If You Do Not See ❤️Unblock❤️ Then Right Click On The ❤️main❤️ file and Then ❤️Properties >❤️In Security >❤️Edit Permission > ❤️Allow Control And And Apply. > ❤️‍🔥Now Run The Tool
+
+<img src="https://github.com/Harjot-15/-My-Bots-/blob/%E2%9D%A4%EF%B8%8F-CRUD-EXTRACTOR/Unblock%20Images/Unblock%202.png" width="800">
+
 ## Features
 
 ### Archive Extractor, File Mover, and Folder Renamer
